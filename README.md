@@ -1,5 +1,5 @@
 # IDX
-The [MNIST handwriting database](http://yann.lecun.com/exdb/mnist/) is stored in files specified by the IDX file format. As near as I can tell, Yann LeCun invented the IDX format, or at least he appears to be the only one using it. It is fairly well specified, and can probably be used in other scenarios, so I decided to write my own generalized code for reading IDX formatted files.
+The [MNIST handwriting database](http://yann.lecun.com/exdb/mnist/) is stored in files specified by the IDX file format. As near as I can tell, Yann LeCun invented the IDX format, or at least it appears that MNIST is the only one using it. It is fairly well specified, and can probably be used in other scenarios, so I decided to write my own generalized code for reading IDX formatted files.
 
 # Building
 Project files are included, so as long as you have a recent version of [ant](https://ant.apache.org/), it should be pretty simple to build this in to a Jar for inclusion in other Java projects. Or you can simply import the source code directly and avoid such complications.
